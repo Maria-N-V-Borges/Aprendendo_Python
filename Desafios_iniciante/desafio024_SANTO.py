@@ -1,4 +1,4 @@
-#Desafio: Programa para verificar se a cidade começa com "SANTOS"
+#Desafio: Programa para verificar se a cidade começa com "SANTO"
 
 c = input('Digite o nome de uma cidade: ').strip()
 
