@@ -9,3 +9,7 @@ if comeca_com_santos:
 
 else:
     print('Não, a cidade não começa com SANTOS')
+
+#.strip() → tira espaços extras.
+#.upper() → deixa tudo em maiúsculas pra não dar erro se a pessoa digitar “santos” ou “Santos”.
+#.startswith("SANTOS") → checa se a string começa com essa palavra.
