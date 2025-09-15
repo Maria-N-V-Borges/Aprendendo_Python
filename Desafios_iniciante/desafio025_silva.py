@@ -9,3 +9,7 @@ if tem_silva:
 
 else:
     print('Não, o nome não contém SILVA')
+
+#.strip() → tira espaços antes e depois.
+#.upper() → deixa tudo maiúsculo pra evitar erro de digitar “Silva”, “silva” ou “SILVA”.
+#"SILVA" in nome.upper() → verifica se “SILVA” aparece em qualquer parte do nome.
