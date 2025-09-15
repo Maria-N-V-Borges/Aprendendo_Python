@@ -11,3 +11,8 @@ print(f'Unidade: {u}')
 print(f'Dezena: {d}')
 print(f'Centena: {c}')
 print(f'Milhar: {m}')
+
+#% → pega o resto da divisão (ou seja, o último dígito).
+#// → divisão inteira, pra ir “eliminando” os últimos dígitos.
+#Exemplo: 1834 % 10 = 4 (unidade).
+#Depois 1834 // 10 = 183, e % 10 = 3 (dezena)… e por aí vai
