@@ -2,13 +2,13 @@
 
 c = input('Digite o nome de uma cidade: ').strip()
 
-comeca_com_santos = c.upper().startswith('SANTOS')
+comeca_com_santo = c.upper().startswith('SANTO')
 
-if comeca_com_santos:
-    print('Sim! A cidade começa com SANTOS')
+if comeca_com_santo:
+    print('Sim! A cidade começa com SANTO')
 
 else:
-    print('Não, a cidade não começa com SANTOS')
+    print('Não, a cidade não começa com SANTO')
 
 #.strip() → tira espaços extras.
 #.upper() → deixa tudo em maiúsculas pra não dar erro se a pessoa digitar “santos” ou “Santos”.
