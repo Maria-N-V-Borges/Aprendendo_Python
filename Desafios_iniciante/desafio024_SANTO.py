@@ -12,4 +12,4 @@ else:
 
 #.strip() → tira espaços extras.
 #.upper() → deixa tudo em maiúsculas pra não dar erro se a pessoa digitar “santo” ou “Santo”.
-#.startswith("SANTOS") → checa se a string começa com essa palavra.
+#.startswith("SANTO") → checa se a string começa com essa palavra.
