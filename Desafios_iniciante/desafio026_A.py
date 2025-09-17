@@ -1,12 +1,13 @@
 #Desafio: Programa que analisa a letra "A" em uma frase
 
 f = input('Digite uma frase: ').strip().upper()
+f_sem__espacos = f.replace(' ','')
 
-q = f.count('A')
+q = f_sem__espacos.count('A')
 
-p = f.find('A') + 1
+p = f_sem__espacos.find('A') + 1
 
-u = f.rfind('A') + 1
+u = f_sem__espacos.rfind('A') + 1
 
 print(f'A letra A aparece {q} vezes na frase.')
 print(f'A primeira letra A aparece a posição {p}.')
