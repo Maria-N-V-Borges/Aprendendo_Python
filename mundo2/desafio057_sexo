@@ -1,0 +1,8 @@
+#Desafio: Programa para validar sexo
+
+sexo = input('Digite o sexo [M/F]: ').strip().upper()
+
+while sexo not in ['M', 'F']:
+    sexo = input('Valor inválido! Digite novamente [M/F]: ').strip().upper()
+
+print(f'Sexo {sexo} registrado com sucesso 💖')
